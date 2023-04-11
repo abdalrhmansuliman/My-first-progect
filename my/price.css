@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  font-size: 20px;
+}
+.container {
+  font-size: 14px;
+  font-family: sans-serif;
+  padding: 10px;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid #fff;
+  border-radius: 3px;
+}
+.top {
+  width: 475px;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 5px 5px 0 0;
+  background-color: white;
+}
+.head {
+  color: cyan;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.day {
+  color: hsl(71, 73%, 54%);
+  padding-bottom: 10px;
+}
+.gain {
+  color: hsl(218, 22%, 67%);
+  font-size: 12px;
+  opacity: 0.7;
+}
+.float-container {
+  display: flex;
+  width: 500px;
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+/*.float-child {
+  width: 45%;
+  float: left;
+  border: 2px solid #fff;
+}*/
+.float-child-left {
+  border: 3px solid cyan;
+  color: white;
+  width: 50%;
+  padding: 5px 3px 5px 20px;
+  background-color: cyan;
+  border-radius: 0 0 0 5px;
+}
+.left2 {
+  padding: 10px;
+}
+.small {
+  opacity: 0.7;
+  font-size: 11px;
+}
+.small2 {
+  font-size: 11px;
+}
+.button {
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  width: 200px;
+  border-radius: 3px;
+  border-color: hsl(71, 73%, 54%);
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+}
+.float-child-right {
+  width: 50%;
+  padding: 5px 10px;
+  border: 3px solidrgb(39, 165, 165);
+  color: white;
+  background-color: rgb(39, 165, 165);
+  border-radius: 0 0 5px 0;
+}
+.ul {
+  opacity: 0.7;
+  font-size: 11px;
+  list-style-type: none;
+  padding: 5px;
+}
